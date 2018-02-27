@@ -1,0 +1,30 @@
+{
+  "name": "real-time-ws-datasource",
+  "version": "0.0.0",
+  "description": "Real time websocket Grafana datasource",
+  "main": "dist/module.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js"
+  },
+  "keywords": [],
+  "author": "Nick Wunder",
+  "license": "MIT",
+  "repository": "https://github.com/nwunder/real-time-ws-datasource",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "loader-utils": "^1.1.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
+}
